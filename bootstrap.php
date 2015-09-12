@@ -15,7 +15,7 @@ $baseDir = dirname(__FILE__) . '/';
 $loader = require_once $baseDir . 'vendor/autoload.php';
 
 foreach($namespaces as $namespace) {
-    $loader->add($namespace, 'src/');
+    $loader->add($namespace, $baseDir . 'src/');
 }
 
 require_once 'app/Reactor.php';
