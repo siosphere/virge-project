@@ -1,4 +1,5 @@
 {
+    "name": "virge/project",
     "repositories": [
         {
             "type": "vcs",
