@@ -4,10 +4,7 @@
  * @author Michael Kramer
  */
 
-$loader = require_once '../vendor/autoload.php';
-$loader->add('Ingram','../src/');
-
-require_once '../app/Reactor.php';
+require_once '../bootstrap.php';
 
 //handle arguments
 

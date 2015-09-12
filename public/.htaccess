@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteBase /
+RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+RewriteRule (.?)index\.php/(.*) /$1$2 [R=301,NE,L]
+
+## 301 rewrites
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* index.php [QSA,L]

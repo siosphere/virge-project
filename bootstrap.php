@@ -10,7 +10,9 @@
  */
 $namespaces = array();
 
-$loader = require_once 'vendor/autoload.php';
+$baseDir = dirname(__FILE__) . '/';
+
+$loader = require_once $baseDir . 'vendor/autoload.php';
 
 foreach($namespaces as $namespace) {
     $loader->add($namespace, 'src/');

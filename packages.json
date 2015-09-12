@@ -1,6 +1,6 @@
 {
     "packages": {
-        "vendor/package-name": {
+        "virge/project": {
             "dev-master": {
                 "name": "virge/project",
                 "repositories": [
