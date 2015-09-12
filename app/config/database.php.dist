@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * 
+ * @author Michael Kramer
+ */
+
+return array(
+    'service'       =>      'virge/database',
+    'connections'   =>      array(
+        'default'       =>      array(
+            'hostname'      =>  'localhost',
+            'username'      =>  '',
+            'password'      =>  '',
+            'database'      =>  '',
+        ),
+    ),
+);

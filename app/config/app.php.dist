@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * 
+ * @author Michael Kramer
+ */
+
+return array(
+    'environment'       =>      'local'
+);

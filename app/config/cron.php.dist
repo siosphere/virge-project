@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * 
+ * @author Michael Kramer
+ */
+
+return array(
+    'save_time'     =>      60 * 72, //save 3 days worth of crons
+);
