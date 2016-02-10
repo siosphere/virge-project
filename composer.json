@@ -7,6 +7,7 @@
         "virge/cli-db": "dev-master",
         "virge/core": "dev-master",
         "virge/cron": "dev-master",
+        "virge/enigma": "dev-master",
         "virge/orm": "dev-master",
         "virge/router": "dev-master"
     }
