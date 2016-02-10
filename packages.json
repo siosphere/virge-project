@@ -4,30 +4,6 @@
             "dev-master": {
                 "name": "virge/project",
                 "repositories": [
-                    {
-                        "type": "vcs",
-                        "url": "https://github.com/siosphere/virge-core"
-                    },
-                    {
-                        "type": "vcs",
-                        "url": "https://github.com/siosphere/virge-cli"
-                    },
-                    {
-                        "type": "vcs",
-                        "url": "https://github.com/siosphere/virge-db"
-                    },
-                    {
-                        "type": "vcs",
-                        "url": "https://github.com/siosphere/virge-router"
-                    },
-                    {
-                        "type": "vcs",
-                        "url": "https://github.com/siosphere/virge-orm"
-                    },
-                    {
-                        "type": "vcs",
-                        "url": "https://github.com/siosphere/virge-cron"
-                    }
                 ],
                 "require": {
                     "virge/cli": "dev-master",
