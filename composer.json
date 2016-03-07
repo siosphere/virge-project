@@ -4,7 +4,7 @@
     ],
     "require": {
         "virge/cli": "dev-master",
-        "virge/cli-db": "dev-master",
+        "virge/db": "dev-master",
         "virge/core": "dev-master",
         "virge/cron": "dev-master",
         "virge/enigma": "dev-master",
