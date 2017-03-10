@@ -10,6 +10,7 @@ class Reactor extends BaseReactor {
     
     public function registerCapsules($capsules = array()) {
         parent::registerCapsules(array(
+            new Example\ExampleCapsule(),
             
             new Virge\Cli\Capsule(),
             new Virge\Cron\Capsule(),

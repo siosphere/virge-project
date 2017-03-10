@@ -8,7 +8,9 @@
  * Add namespaces one by one, this would be the start of your namespace, for
  * example, if I had src/Siosphere, my namespace would be Siosphere
  */
-$namespaces = array();
+$namespaces = [
+    'Example'
+];
 
 $baseDir = dirname(__FILE__) . '/';
 
