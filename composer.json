@@ -4,7 +4,7 @@
     ],
     "require": {
         "virge/cli": "~2.0",
-        "virge/db": "~3.0",
+        "virge/db": "~2.0",
         "virge/core": "~1.0",
         "virge/cron": "~2.0",
         "virge/enigma": "~1.0",
