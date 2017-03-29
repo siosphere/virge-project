@@ -3,12 +3,12 @@
     "repositories": [
     ],
     "require": {
-        "virge/cli": "dev-master",
-        "virge/db": "dev-master",
-        "virge/core": "dev-master",
-        "virge/cron": "dev-master",
-        "virge/enigma": "dev-master",
-        "virge/orm": "dev-master",
-        "virge/router": "dev-master"
+        "virge/cli": "~2.0",
+        "virge/db": "~3.0",
+        "virge/core": "~1.0",
+        "virge/cron": "~2.0",
+        "virge/enigma": "~1.0",
+        "virge/orm": "~2.0",
+        "virge/router": "~2.0"
     }
 }
